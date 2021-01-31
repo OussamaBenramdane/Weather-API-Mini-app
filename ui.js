@@ -9,7 +9,7 @@ class UI {
         this.minTemp = document.getElementById('w-feels-like');
         this.maxTemp = document.getElementById('w-dewpoint');
         this.wind = document.getElementById('w-wind');
-    }
+        }
 
     paint(weather){
         this.location.textContent = weather.name;
@@ -21,4 +21,5 @@ class UI {
         this.maxTemp.textContent = `Min temperature : ${weather.main.temp_max} F`;
         this.wind.textContent = `Wind Speed : ${weather.wind.speed}`;
     }
+
 }

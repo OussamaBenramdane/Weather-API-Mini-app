@@ -39,5 +39,20 @@ class Weather{
 
 ```
 
+## Map fonctionality
+
+For the map we can fetch the cords from the weather api to display also the city on a google map 
+
+You need a proper key for the google map fonctionality 
+
+```html
+<script defer
+    src="https://maps.googleapis.com/maps/api/js?key={YOUT_KEY}=initMap">
+</script>
+```
+
+The google map script return a callback for a function called initMap() that we gonaa define in the app.js module to render the map on the UI 
+
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
