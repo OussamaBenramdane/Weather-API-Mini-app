@@ -1,0 +1,22 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "Weather Fetcher it's mini-app that uses the OpenWeatherMap REST API to find weather data and the appropriate temperatures for each city using Fetch and ES7 syntax Async/Await and the browser local storage management",
+  "main": "app.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OussamaBenramdane/Weather-API-Mini-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OussamaBenramdane/Weather-API-Mini-app/issues"
+  },
+  "homepage": "https://OussamaBenramdane.github.io/SupWeather",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
